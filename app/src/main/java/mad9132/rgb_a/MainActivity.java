@@ -35,8 +35,8 @@ public class MainActivity extends Activity implements Observer, SeekBar.OnSeekBa
     // INSTANCE VARIABLES
     // Pro-tip: different naming style; the 'm' means 'member'
     private AboutDialogFragment mAboutDialog;
-    private TextView mColorSwatch;
-    private RGBAModel mModel;
+    private TextView            mColorSwatch;
+    private RGBAModel           mModel;
     private SeekBar             mRedSB;
     //TODO: declare private members for mGreenSB, mBlueSB, and mAlphaSB
     private TextView            mRedTV;
