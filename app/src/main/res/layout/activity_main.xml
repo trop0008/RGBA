@@ -39,8 +39,7 @@
         android:layout_alignParentStart="true"
         android:max="255"
         android:layout_marginBottom="15dp" />
-    <!--TODO: TextView for blue -->
-    <!--TODO: SeekBar for green -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,8 +59,6 @@
 
 
 
-    <!--TODO: TextView for blue -->
-    <!--TODO: SeekBar for blue -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,8 +77,6 @@
         android:layout_below="@+id/blue"
         android:layout_alignParentStart="true" />
 
-    <!--TODO: TextView for alpha -->
-    <!--TODO: SeekBar for alpha -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

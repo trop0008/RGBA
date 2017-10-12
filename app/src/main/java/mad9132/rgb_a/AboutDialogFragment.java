@@ -23,7 +23,7 @@ public class AboutDialogFragment extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         //TODO pro-tip: cascading messages
         builder.setTitle(R.string.action_about)
-                //TODO replace with your name + userID
+
                 .setMessage(R.string.author)
                 .setCancelable(false)
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
