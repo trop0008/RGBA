@@ -143,7 +143,6 @@ public class MainActivity extends Activity implements Observer, SeekBar.OnSeekBa
 
             case R.id.action_yellow:
                 mModel.asYellow();
-                mModel.setAlpha( RGBAModel.MAX_ALPHA );
                 return true;
 
             case R.id.action_white:
@@ -213,6 +212,15 @@ public class MainActivity extends Activity implements Observer, SeekBar.OnSeekBa
         switch (seekBar.getId()) {
             case R.id.redSB:
                 mRedTV.setText( getResources().getString(R.string.red) );
+                break;
+            case R.id.greenSB:
+                mGreenTV.setText( getResources().getString(R.string.green) );
+                break;
+            case R.id.blueSB:
+                mBlueTV.setText( getResources().getString(R.string.blue) );
+                break;
+            case R.id.alphaSB:
+                mAlphaTV.setText( getResources().getString(R.string.alpha) );
                 break;
         }
     }
